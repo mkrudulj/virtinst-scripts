@@ -122,7 +122,7 @@ case "$RELEASE_NAME" in
     RELEASE_FULLVER=13.10
     ;;
   trusty)
-    RELEASE_FULLVER=14.04.01
+    RELEASE_FULLVER=14.04.5
     ;;
   utopic)
     RELEASE_FULLVER=14.10
@@ -227,7 +227,7 @@ function virtinst_with_preseed() {
         --name $NAME \
         --os-type linux \
         --os-variant $OS_VARIANT \
-        --virt-type kvm \
+        --virt-type kqemu \
         --connect=qemu:///system \
         --vcpus $NUM_CPU \
         --ram $MEMORY \
