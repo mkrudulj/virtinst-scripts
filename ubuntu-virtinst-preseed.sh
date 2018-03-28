@@ -227,7 +227,7 @@ function virtinst_with_preseed() {
         --name $NAME \
         --os-type linux \
         --os-variant $OS_VARIANT \
-        --virt-type kqemu \
+        --virt-type qemu \
         --connect=qemu:///system \
         --vcpus $NUM_CPU \
         --ram $MEMORY \
