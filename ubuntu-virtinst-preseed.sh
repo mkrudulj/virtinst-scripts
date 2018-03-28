@@ -7,7 +7,7 @@ CONFIG_FILE=$WORKDIR/config.sh
 SUPPORTED="(lucid|precise|saucy|trusty|utopic|vivid)"
 ARCH=amd64
 
-SITE=${UBUNTU_SITE:-http://ftp.riken.go.jp/Linux/ubuntu}
+SITE=${UBUNTU_SITE:-http://releases.ubuntu.com/14.04}
 PROXY=${UBUNTU_PROXY:-${PROXY:-$http_proxy}}
 DISKIMG_DIR=${DISKIMG_DIR:-$HOME/images}
 ISO_DIR=${UBUNTU_ISO_DIR:-$HOME/iso/ubuntu}
